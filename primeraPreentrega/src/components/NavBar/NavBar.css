@@ -1,0 +1,51 @@
+.navbar {
+    
+    width: 100%; 
+    justify-content: space-around;
+  }
+  
+  .navbar-brand {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+   
+  }
+  
+  .pestaña {
+    color: #fff;
+    font-size: 18px;
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    text-align: center;
+   
+  }
+  
+ 
+
+  .contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     
+    margin: 2px;
+
+  }
+  
+  .cart {
+    
+    color: #333;
+    border: none;
+    padding: 5px 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+
+   
+  }
+  
+  .cart:hover {
+    background-color: #c4c5b8;
+  }
+  

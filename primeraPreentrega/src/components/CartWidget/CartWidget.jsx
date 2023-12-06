@@ -1,10 +1,10 @@
 import React from 'react'
-import {BsFillCartFill} from 'react-icons/bs';
+import { BsCartFill } from "react-icons/bs";
 
 const CartWidget = () => {
   return (
-    <div>
-        <button><BsFillCartFill/></button>
+    <div  >
+         <button ><BsCartFill /></button>
     </div>
   )
 }

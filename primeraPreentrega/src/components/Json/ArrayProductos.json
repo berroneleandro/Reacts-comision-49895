@@ -1,0 +1,58 @@
+[
+    {
+        "id":1,
+        "nombre":"Guitarra",
+        "descripcion":"Guitarra pepito",
+        "imagen":"https://dcdn.mitiendanube.com/stores/990/519/products/tml-g1-st-3ts-kns-kansas-sb1-f5fd3a3a9bd439cbc416584418589054-1024-1024.jpg",
+        "precio":222000,
+        "stock":10,
+        "categoria":"guitarras"
+    },
+    {
+        "id":2,
+        "nombre":"Guitarra criolla",
+        "descripcion":"Guitarra Fulano",
+        "imagen":"https://d3ugyf2ht6aenh.cloudfront.net/stores/813/752/products/spruce41-31-d9af8e704d16b81a9216426267078691-1024-1024.jpg",
+        "precio":322000,
+        "stock":10,
+        "categoria":"guitarras"
+    },
+    {
+        "id":3,
+        "nombre":"Amplificador Marshall",
+        "descripcion":"Amplificador Valvular",
+        "imagen":"https://http2.mlstatic.com/D_NQ_NP_830367-MLA32643577515_102019-O.webp",
+        "precio":120000,
+        "stock":20,
+        "categoria":"amplificadores"
+    },
+    {
+        "id":4,
+        "nombre":"Amplificador de bajo",
+        "descripcion":"Amplificadorde bajo",
+        "imagen":"https://tiendafeedback.com.ar/2637-large_default/amplificador-para-bajo-fender-rumble-150-cabezal-para-bajo-150w.jpg",
+        "precio":440000,
+        "stock":15,
+        "categoria":"amplificadores"
+    },
+    {
+        "id":5,
+        "nombre":"Correa de guitarra",
+        "descripcion":"Correa de guitarra",
+        "imagen":"https://http2.mlstatic.com/D_NQ_NP_653103-MLA31547292758_072019-O.webp",
+        "precio":50000,
+        "stock":30,
+        "categoria":"accesorios"
+    },
+    {
+        "id":6,
+        "nombre":"microfono",
+        "descripcion":"Microfono Fender",
+        "imagen":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9cXM00fto0k7EAEPWfTMQtBFvIh3Ni-BIkQ&usqp=CAU",
+        "precio":26000,
+        "stock":10,
+        "categoria":"accesorios"
+    }
+
+
+]

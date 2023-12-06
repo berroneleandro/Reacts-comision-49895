@@ -1,0 +1,15 @@
+.cont{
+    width: 90%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    margin: auto  ;
+    background-color: gray;
+    padding: 5px;
+    justify-content: space-between;
+    
+    
+    
+    
+
+}

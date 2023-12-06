@@ -1,0 +1,28 @@
+.detalle{
+    width: auto;
+    height: auto;
+    margin: auto;
+    box-shadow: 5px 10px #18181838;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: center;
+    border: 5px black;
+    border-radius: 7px;
+}
+
+.detalle img{
+    height: 20rem ;
+}
+
+.detalle h3{
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkblue;
+}
+.detalle p{
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
