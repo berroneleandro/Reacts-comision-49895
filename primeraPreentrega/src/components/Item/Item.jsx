@@ -14,12 +14,12 @@ const Item = ({item}) => {
         <div className='tarjeta'>
 
             <div className='card border border-3'>
-                <img src={item.imagen} alt={item.nombre} className='card-ig-top'/>
+                <img src={item.img} alt={item.title} className='card-ig-top'/>
                 <div className='card-body text-center'>
-                    <h3 children='card-text'>{item.nombre}</h3>
+                    <h3 children='card-text'>{item.title}</h3>
                     <hr />
-                    <p children='card-text'>{item.descripcion}</p>
-                    <p children='card-text'>$ {item.precio}</p>
+                    <p children='card-text'>{item.description}</p>
+                    <p children='card-text'>$ {item.price}</p>
 
                 </div>
 

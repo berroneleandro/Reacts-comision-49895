@@ -10,7 +10,10 @@ import Guitarras from './components/Guitarras'
 import GuitarrasId from './components/GuitarrasId' */
 import Error from './components/Error';
 import ItemDetailContainer from './components/ItemDatailContainer/ItemDetailContainer'
-import CartWidget from './components/CartWidget/CartWidget';
+/* import CartWidget from './components/CartWidget/CartWidget'; */
+import CartProvider from './components/Context/CartContext';
+import Cart from './components/Cart/Cart';
+import { CheckOut } from './components/CheckOut/CheckOut';
 
 
 
@@ -20,6 +23,7 @@ function App() {
   return (
     <>
     <BrowserRouter>
+    <CartProvider>
     <NavBar/>
 
     <Routes>
@@ -27,7 +31,8 @@ function App() {
       <Route path={'/'} element={<ItemListContainer/>}/>
       <Route path={'/category/:id'} element={<ItemListContainer/>}/>
       <Route path={'/item/:id'} element={<ItemDetailContainer/>}/>
-      <Route path={'/cart'} element={<CartWidget/>}/>
+      <Route path={'/cart'} element={<Cart/>}/>
+      <Route path={'/checkout'} element={<CheckOut/>}/>
       <Route path='*' element={<Error/>}/>
       
     {/*   <Route path='/Guitarras' element={<Guitarras/>}/>
@@ -36,6 +41,8 @@ function App() {
       <Route path='/Accesorios' element={<Accesorios/>}/>
       <Route path='/Cart' element={<CartWidget/>}/> */}
     </Routes>
+
+    </CartProvider>
     </BrowserRouter>
       
       

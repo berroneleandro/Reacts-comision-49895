@@ -1,0 +1,38 @@
+.contenedorFormulario{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 2px;
+    padding: 10px;
+    
+   
+}
+.contenedorFormulario h2{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    text-align: center;
+    font-style:inherit;
+}
+
+.contenedorFormulario form{
+    padding: 10px;
+    margin: 10px;
+    border: 2px black;
+    color: brown;
+}
+
+.contenedorFormulario div{
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form{
+
+    width: auto;
+    border-color: black;
+    box-shadow: 5px 10px #18181838;
+    border-radius: 7px;
+
+}
