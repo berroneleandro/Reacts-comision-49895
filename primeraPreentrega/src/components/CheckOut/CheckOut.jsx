@@ -91,6 +91,8 @@ export const CheckOut = () => {
         setConfirmacion('');
         setMensaje('');
 
+        clearCart();
+
 
 
 
